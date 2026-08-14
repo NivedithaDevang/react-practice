@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+.app h2 {
+  margin-bottom: 24px;
+  text-align: center;
+  color: #1f2937;
+}
+
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

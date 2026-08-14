@@ -1,0 +1,54 @@
+.expense {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 18px 20px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+.expense-date {
+  min-width: 78px;
+  background: #e0ecff;
+  border-radius: 10px;
+  padding: 12px 10px;
+  text-align: center;
+  color: #1d4ed8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expense-date span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.expense-date strong {
+  font-size: 26px;
+  line-height: 1.2;
+  margin: 4px 0;
+}
+
+.expense-description {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.expense-description h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.expense-price {
+  margin: 0;
+  font-weight: 700;
+  color: #15803d;
+  font-size: 1.1rem;
+}

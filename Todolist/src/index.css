@@ -1,0 +1,75 @@
+.todo {
+	width: 50%;
+	margin: 4rem auto;
+	padding: 2rem;
+	background: #ffffff;
+	border: 1px solid #dbe4ea;
+	border-radius: 12px;
+	box-shadow: 0 18px 45px rgba(18, 149, 231, 0.12);
+	color: #18323f;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.todo ul {
+	display: grid;
+	gap: 0.75rem;
+	margin: 0 0 1.5rem;
+	padding: 0;
+	list-style: none;
+}
+
+.todo li {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+	min-height: 3.25rem;
+	padding: 0.7rem 0.8rem 0.7rem 1rem;
+	background: #f2f7f8;
+	border-left: 4px solid #2c8c83;
+	border-radius: 6px;
+	font-size: 1.05rem;
+}
+
+.todo li span {
+	flex: 1;
+}
+
+.todo button {
+	border: 0;
+	border-radius: 5px;
+	padding: 0.55rem 0.75rem;
+	color: #ffffff;
+	cursor: pointer;
+	transition: transform 160ms ease, filter 160ms ease;
+}
+
+
+.done {
+	background: #2c8c83;
+}
+
+.remove {
+	background: #c75c54;
+}
+
+.add {
+	display: block;
+	width: 100%;
+	background: #18323f;
+	font-size: 0.95rem !important;
+}
+
+@media (max-width: 30rem) {
+	.todo {
+		margin: 2rem auto;
+		padding: 1rem;
+	}
+
+	.todo li {
+		flex-wrap: wrap;
+	}
+
+	.todo li span {
+		flex-basis: 100%;
+	}
+}

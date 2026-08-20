@@ -1,0 +1,27 @@
+nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+nav h2{
+    font-size: 40px;
+    padding-top: 20px;
+    color: darkblue;
+}
+
+nav span{
+    padding-right: 40px;
+    padding-top: 20px;
+    font-size: 28px;
+    color: darkgoldenrod;
+}

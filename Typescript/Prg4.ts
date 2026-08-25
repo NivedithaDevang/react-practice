@@ -25,7 +25,6 @@ console.log(names);
 
 //read only
 const read: readonly string[] = ["Niveditha"];
-read.push("Dhanvi");
 console.log(read);
 
 
